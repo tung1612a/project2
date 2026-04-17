@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, CheckCircle, X, RotateCcw, Lightbulb, Target, Clock } from 'lucide-react';
+import { CheckCircle, X, RotateCcw, Lightbulb, Target, Clock } from 'lucide-react';
 import './EdTech.css';
 
 function LessonContent({ lessonId }) {

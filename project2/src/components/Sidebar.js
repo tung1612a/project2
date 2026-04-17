@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, Circle, Lock, Play, BookOpen, Code, Database, Globe } from 'lucide-react';
+import { CheckCircle, Circle, Lock, Play, Code, Database, Globe } from 'lucide-react';
 import './EdTech.css';
 
 function Sidebar({ currentLesson, onLessonSelect }) {

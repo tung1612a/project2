@@ -1,9 +1,9 @@
 import React from 'react';
-import { Trophy, Medal, Star, Award, Zap, Target, Flame } from 'lucide-react';
+import { Trophy, Star, Award, Zap, Target, Flame } from 'lucide-react';
 import './EdTech.css';
 
 function GamificationPanel({ userStats, recentAchievements }) {
-  const { badges, streak, points, level } = userStats;
+  const { badges, streak, points } = userStats;
 
   const badgeTypes = [
     { id: 'first-lesson', name: 'First Steps', icon: Star, description: 'Complete your first lesson', earned: true },
